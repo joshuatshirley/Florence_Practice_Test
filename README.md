@@ -9,7 +9,7 @@ repo, which also serves a second, separate link used as a shared tracker
 across multiple stations. Results from either link land in the same Sheet.
 
 There's nothing to deploy in this repo beyond GitHub Pages itself —
-`resultsWebhookUrl` in `est-kiosk-standalone.html`'s config block just
+`resultsWebhookUrl` in `index.html`'s config block just
 points at the Apps Script deployment that already exists. For the backend
 source, the full multi-station setup process, and the station-commander
 handoff guide, see `Florence_EST`'s `SETUP.md` and
